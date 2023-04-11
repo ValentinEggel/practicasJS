@@ -19,4 +19,8 @@ const persona4= {
     Sexo: "M",
     Edad: 20,
 }
-
+const personas = [persona1,persona2,persona3,persona4]
+let acumulador=0
+personas.map((item)) => (item) {
+    acumulador=acumulador+item.Edad;
+}
