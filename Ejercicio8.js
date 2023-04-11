@@ -1,3 +1,4 @@
+//Obtener la suma de los elementos de un array.
 const a=[2,3,5];
 acum=0;
 
